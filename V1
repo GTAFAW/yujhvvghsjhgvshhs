@@ -59,7 +59,7 @@ about:Button("小goV2",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/xgomn/Jsjhsbwbjsksnbebshs/refs/heads/main/V2"))()
 end)
 about:Button("小go主页",function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/GTAFAW/goto/main/ym"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/xgomn/Bhayjkedswfgvxtgjoplkj/refs/heads/main/goto"))()
 end)
 
 local UITab2 = win:Tab("『刀刃球』",'16060333448')
