@@ -62,29 +62,6 @@ about:Button("小go主页",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/xgomn/Bhayjkedswfgvxtgjoplkj/refs/heads/main/goto"))()
 end)
 
-local UITab2 = window:Tab("『传送玩家』",'')
-
-local about = UITab2:section("传送玩家",true)
-
-local Players = about:Dropdown("选择玩家名字已开始下面的功能", 'Dropdown', bin.dropdown, function(v)
-    bin.playernamedied = v
-end)
-
-about:Button("重置玩家名字", function()
-    shuaxinlb(true)
-    Players:SetOptions(bin.dropdown)
-end)
-
-about:Button("传送到玩家旁边", function()
-    local HumRoot = game.Players.LocalPlayer.Character.HumanoidRootPart
-    local tp_player = game.Players:FindFirstChild(bin.playernamedied)
-    if tp_player and tp_player.Character and tp_player.Character.HumanoidRootPart then
-        HumRoot.CFrame = tp_player.Character.HumanoidRootPart.CFrame + Vector3.new(0, 3, 0)
-    else
-        print("无法传送：未找到玩家或玩家没有角色/HumanoidRootPart")
-    end
-end)
-
 local UITab2 = win:Tab("『刀刃球』",'16060333448')
 
 local about = UITab2:section("『🕊️🕊️🕊️🕊️🕊️🕊️🕊️🕊️』",true)
