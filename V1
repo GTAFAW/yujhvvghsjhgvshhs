@@ -382,7 +382,9 @@ about:Button("死亡球2",function()
 local UITab20 = win:Tab("『骨折VI』",'16060333448')
 
 local about = UITab20:section("🕊️🕊️🕊️🕊️🕊️🕊️🕊️🕊️",true)
-
+about:Button("无限金钱",function()	
+      loadstring(game:HttpGet('https://pastebin.com/raw/YiBfCEdJ'))()	
+	end)
 about:Button("骨折1",function()	
       loadstring(game:HttpGet('https://pastebin.com/raw/5rEAVmcC'))()	
 	end)
