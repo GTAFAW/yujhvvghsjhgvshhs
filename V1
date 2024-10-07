@@ -61,7 +61,7 @@ end)
 about:Button("小go主页",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/xgomn/Bhayjkedswfgvxtgjoplkj/refs/heads/main/goto"))()
 end)
-local Players = credits:Dropdown("选择玩家到传送", "Player Name", AllPlayers, function(Value)
+local Players = about:Dropdown("选择玩家到传送", "Player Name", AllPlayers, function(Value)
     TeleportToPlayer(Value)
 end)
 
