@@ -217,8 +217,8 @@ local UITab10 = win:Tab("『恐怖奶奶』",'16060333448')
 
 local about = UITab10 :section("🕊️🕊️🕊️🕊️🕊️🕊️🕊️🕊️",true)
 
-about:Button("恐怖奶奶1",function()
-loadstring(game:HttpGet("https://pastefy.app/o688Jvmn/raw"))()
+about:Button("xgo恐怖奶奶",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/GTAFAW/goto/refs/heads/main/xgo%E6%81%90%E6%80%96%E8%80%81%E5%A5%B6%E5%A5%B6%E5%A4%9A%E4%BA%BA%E6%B8%B8%E6%88%8F.lua"))()
 end)
 
 local UITab11 = win:Tab("『旗帜战争』",'16060333448')
